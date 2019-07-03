@@ -18,6 +18,14 @@ var routes = [{
         content: 'disable'
     }
 }, {
+    path: '/',
+    component: fenqile,
+    meta: {
+        title: '分期乐-年轻人的消费平台',
+        content: 'disable'
+    }
+}
+    , {
     path: '/fenlei',
     component: fenlei,
     meta: {

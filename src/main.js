@@ -4,6 +4,10 @@ import router from './router'
 import store from './vuex'
 Vue.config.productionTip = false
 
+
+
+
+
 router.beforeEach((to, from, next) => {
   /* 路由发生变化修改页面meta */
   if (to.meta.content) {
